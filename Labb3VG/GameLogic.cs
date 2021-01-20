@@ -80,7 +80,7 @@ namespace Labb3VG
 
             while(!player.Dead && !monster.Dead)
                 {
-
+                 
             damage = player.Attack(monster);
             monster.TakeDamage(damage);
                 if (monster.HP <= 0)
